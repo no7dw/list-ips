@@ -17,9 +17,6 @@
     "type": "git",
     "url": "https://github.com/dcohenb/list-ips.git"
   },
-  "dependencies": {
-    "should": "^11.2.0"
-  },
   "devDependencies": {
     "should": "^11.2.0"
   }
