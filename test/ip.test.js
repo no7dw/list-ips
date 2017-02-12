@@ -18,4 +18,9 @@ describe('request ip address', () => {
         listIps.list('114.0.*').length.should.equal(0);
         done();
     })
+    it('#5 wrong ip format', function  (done) {
+        listIps.list('114.0.*.*.*').length.should.equal(0);
+        done();
+    })
+    //todo need to support 14-15.*.*.* //prevent Allocation failed - JavaScript heap out of memory 
 })
